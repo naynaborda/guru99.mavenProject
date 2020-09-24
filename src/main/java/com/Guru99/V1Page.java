@@ -15,7 +15,12 @@ public class V1Page extends Utils{
         typeText(_userId,userId);
         //enter password
         typeText(_passWord,password);
+
+    }
+    public void clickOnLoginButton(){
+        //click on login button
         clickOnElement(_loginBtn);
+
     }
     public String verifyingLogin(){
         //get text as gtpl bank
